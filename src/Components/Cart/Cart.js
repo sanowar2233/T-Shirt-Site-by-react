@@ -19,7 +19,7 @@ const Cart = ({cart,handleRomoveItem}) => {
 
 
     return (
-        <div className={cart.length===2 ?`orange` : `blue`}>
+        <div className={cart.length===2 ?`orange` : `white`}>
             <h3>order summary</h3>
             <h5>order quantity: {cart.length}</h5>
             {
